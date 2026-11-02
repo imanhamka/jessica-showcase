@@ -58,9 +58,7 @@ Model fallback lives in `src/hooks/model-switcher.sh`.
 
 ## Daily use
 
-![Illustration of a typical task. Not a real conversation.](docs/demo-flow.svg)
-
-*Illustration only. I do not publish real chats, because they hold private and workplace data.*
+![Illustration of a typical task](docs/demo-flow.svg)
 
 - I send a task in Malay from WhatsApp. Typical tasks: check a server log, fix a bug in a Laravel app, write a test, draft a document.
 - Jessica acknowledges within seconds, works, and replies with the result.
