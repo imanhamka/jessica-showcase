@@ -60,10 +60,8 @@ Model fallback lives in `src/hooks/model-switcher.sh`.
 
 ![Illustration of a typical task](docs/demo-flow.svg)
 
-- I send a task in Malay from WhatsApp. Typical tasks: check a server log, fix a bug in a Laravel app, write a test, draft a document.
-- Jessica acknowledges within seconds, works, and replies with the result.
-- For work over about 15 s it sends a "working on X" message first.
-- It runs silently between tasks. Scheduled refreshes do not send messages.
+- I send a task on WhatsApp: check a log, fix a bug, write a test, draft a document.
+- Jessica replies within seconds, does the work, and sends back the result.
 
 See [`docs/example-task.md`](docs/example-task.md) for the step-by-step flow.
 
