@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="660" viewBox="0 0 720 660" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="15">
+  <rect width="720" height="660" fill="#f4f6f8"/>
+  <rect x="0" y="0" width="720" height="56" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="24" y="35" font-size="17" font-weight="600" fill="#1f2328">Illustration of a typical task</text>
+  <text x="696" y="35" font-size="13" fill="#b42318" text-anchor="end">Not a real conversation. Real chats stay private.</text>
+
+  <!-- owner -->
+  <rect x="300" y="80" width="396" height="44" rx="12" fill="#d9fdd3"/>
+  <text x="316" y="107" fill="#1f2328">Check disk space on my test VM.</text>
+  <text x="696" y="140" font-size="12" fill="#57606a" text-anchor="end">Owner</text>
+
+  <!-- ack -->
+  <rect x="24" y="152" width="300" height="44" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="40" y="179" fill="#1f2328">On it. Checking now.</text>
+  <text x="24" y="212" font-size="12" fill="#57606a">Jessica · acknowledges within seconds</text>
+
+  <!-- finding + numbered question -->
+  <rect x="24" y="226" width="520" height="112" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="40" y="253" fill="#1f2328">Disk is 82% full. Old log files use most of it.</text>
+  <text x="40" y="278" fill="#1f2328">Deleting files cannot be undone, so I need your answer:</text>
+  <text x="40" y="303" fill="#1f2328">1 = delete logs older than 30 days</text>
+  <text x="40" y="326" fill="#1f2328">2 = leave them</text>
+  <text x="24" y="354" font-size="12" fill="#57606a">Jessica · destructive action, so it asks first and wants a numbered answer</text>
+
+  <!-- owner answer -->
+  <rect x="636" y="372" width="60" height="44" rx="12" fill="#d9fdd3"/>
+  <text x="666" y="399" fill="#1f2328" text-anchor="middle">1</text>
+  <text x="696" y="432" font-size="12" fill="#57606a" text-anchor="end">Owner</text>
+
+  <!-- result with check -->
+  <rect x="24" y="446" width="520" height="88" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="40" y="473" fill="#1f2328">Done. Disk is now 61% full.</text>
+  <text x="40" y="498" fill="#1f2328">I checked it again on the VM after the delete,</text>
+  <text x="40" y="521" fill="#1f2328">not just from the command output.</text>
+  <text x="24" y="550" font-size="12" fill="#57606a">Jessica · reports the checked result, not the expected one</text>
+
+  <rect x="24" y="580" width="672" height="56" rx="8" fill="#fff8c5" stroke="#d4a72c"/>
+  <text x="40" y="604" font-size="13" fill="#1f2328">Rules shown: fast acknowledgement · ask before destructive actions · numbered answers only</text>
+  <text x="40" y="624" font-size="13" fill="#1f2328">(a bare "yes" may be a permission approval) · check the real end state before reporting.</text>
+</svg>
